@@ -1,0 +1,31 @@
+{
+  "name": "@tng/gta",
+  "version": "1.0.4",
+  "description": "TNG GTA ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "tman"
+  },
+  "author": "aerohui",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1",
+    "should": "^13.2.1",
+    "tman": "^1.8.0"
+  },
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "standard": {
+    "env": [
+      "mocha",
+      "mongo"
+    ]
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
